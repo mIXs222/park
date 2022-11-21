@@ -9,3 +9,6 @@ traces/
 *.gz
 *~
 \#*
+build
+*.egg-info/
+*.egg

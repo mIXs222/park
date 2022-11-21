@@ -8,6 +8,11 @@ register(
 )
 
 register(
+    env_id='haproxy',
+    entry_point='park.envs.haproxy:HAProxyEnv',
+)
+
+register(
     env_id='abr',
     entry_point='park.envs.abr:ABREnv',
 )
